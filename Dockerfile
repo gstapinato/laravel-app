@@ -2,7 +2,7 @@ FROM jkaninda/nginx-php-fpm:8.3
 # Copy laravel project files
 COPY . /var/www/html
 # Storage Volume
-VOLUME /var/www/html/storage
+#VOLUME /var/www/html/storage
 
 WORKDIR /var/www/html
 
